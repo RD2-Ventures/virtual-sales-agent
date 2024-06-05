@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
-elevenlabs = "==0.2.27"
 openai = "==0.28"
 flask-cors = "*"
+elevenlabs = "*"
 
 [dev-packages]
 
