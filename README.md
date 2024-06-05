@@ -8,6 +8,10 @@ This simple project demonstrates the integration of Next.js and Python for creat
 
 2. **Python**: Ensure you have Python installed. You can download Python from [python.org](https://www.python.org/).
 
+3. **Pivpenv**: https://pipenv.pypa.io/en/latest/
+
+4. **MPV.io**:https://mpv.io/installation/
+
 ## Getting Started with Next.js
 
 1. **Install Dependencies**: Navigate to the Next.js directory and run the following command to install the necessary Node.js modules:
@@ -29,7 +33,8 @@ This simple project demonstrates the integration of Next.js and Python for creat
 1. **Install Python Requirements**: Navigate to the Python directory and install the required Python packages by running:
 
    ```bash
-   pip install -r requirements.txt
+   pipenv shell
+   pipenv install
    ```
 
 2. **Run the Python Application**: Execute the Python script to use the virtual sales agents:
